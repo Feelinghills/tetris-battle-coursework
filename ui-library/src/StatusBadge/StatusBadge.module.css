@@ -1,0 +1,42 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+
+.badge--waiting {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.badge--playing {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.badge--finished {
+  background-color: #e2e8f0;
+  color: #475569;
+}
+
+.badge--online {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.badge--offline {
+  background-color: #f1f5f9;
+  color: #64748b;
+}
