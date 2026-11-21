@@ -1,0 +1,36 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.hint {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: #64748b;
+}
+
+.btnGroup {
+  display: flex;
+  gap: 8px;
+}
+
+.footer {
+  padding-top: 4px;
+}

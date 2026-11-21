@@ -1,0 +1,38 @@
+.tableWrap {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.table th {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #64748b;
+  background-color: #f8fafc;
+}
+
+.rank {
+  font-weight: 700;
+  color: #475569;
+}
+
+.playerLink {
+  font-weight: 600;
+}
+
+.score {
+  font-weight: 700;
+  color: #0f172a;
+}

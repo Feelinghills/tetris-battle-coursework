@@ -1,0 +1,48 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rulesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.ruleBox {
+  padding: 14px;
+  border-radius: 10px;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+.ruleHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.points {
+  font-weight: 800;
+  color: #2563eb;
+}
+
+.ruleDesc {
+  margin: 0;
+  font-size: 13px;
+  color: #475569;
+}
+
+.piecesGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+@media (max-width: 768px) {
+  .rulesGrid {
+    grid-template-columns: 1fr;
+  }
+}
